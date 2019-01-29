@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
+
+:root {
+    font-family: 'Noto Serif SC', sans-serif;
+    color:#ffffff;
+    background-color:#000000;
+    
+}
+
+h1,h2,p{
+     text-align: center;
+}
+
+body {
+    max-width: 1480px;
+    margin: auto;
+}
+
+header .logo {
+    
+    
+    text-align: center;
+    margin: 24px auto;
+    
+}
+
+header .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    
+}
+
+header .menu li {
+    list-style-type: none;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#ffffff;;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+.imglogo {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive{
+      width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+.griddy {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+.griddy h3 {
+    text-align:center;
+}
+
+
+@media (min-width: 450px) {
+    
+.pgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (min-width: 660px) {
+.pgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+@media (min-width: 880px) {
+.pgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
+
+footer{
+    margin: auto;
+ margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  
+}
