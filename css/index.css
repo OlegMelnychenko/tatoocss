@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
 
 :root {
-    font-family: 'Noto Serif SC', sans-serif;
+    
     color:#ffffff;
     background-color:#000000;
     
 }
 
-h1,h2,p{
+h1,h2,h3,h4,h5,p{
      text-align: center;
+     font-family: 'Noto Serif SC', sans-serif;
+     color:#ffffff;
 }
 
 body {
-    max-width: 1480px;
+    max-width: 920px;
     margin: auto;
 }
 
@@ -83,6 +85,40 @@ header .menu li a:hover {
     
 }
 
+.pgrad{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+.socialnetwork {
+    display: flex;
+    justify-content:center;
+}
+
+.socialnetworkimg {
+    display: flex;
+    align-items:center;
+}
+
+.map{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.links {
+    text-align: center;
+}
+
+.buttonalign {
+    text-align: center;
+}
+.bcol {
+    background-color: black;
+}
+
 @media (min-width: 660px) {
 .pgrid{
     display: grid;
@@ -97,10 +133,50 @@ header .menu li a:hover {
 }
 }
 
-footer{
-    margin: auto;
- margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  
+
+
+td, th ,ul, li{
+    text-align: center;
+    list-style-type: none;
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+.profile img {
+
+
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+
+transition: filter 600ms ease;
+-webkit-transition: -webkit-filter 600ms ease;
+}
+
+.profile img:hover {
+filter: grayscale(0);
+-webkit-filter: greyscale(0);
 }

@@ -6,12 +6,15 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32"/>
         <title>Family Tattoo Studio</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Family Tattoo Studio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -52,14 +55,19 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
+                        <div class="profile">
                         <img src="img/tattoogirlback.jpg" class="d-block w-100" alt="tattoo girl">
-                    </div>
+                    </div></div>
+                    
                     <div class="carousel-item">
+                        <div class="profile">
                         <img src="img/tattoogirlmiddle.jpg" class="d-block w-100" alt="tattoo girl">
-                    </div>
+                    </div></div>
+                  
                     <div class="carousel-item">
+                        <div class="profile">
                         <img src="img/tattoogirlfront.jpg" class="d-block w-100" alt="tattoo girl">
-                    </div>
+                    </div></div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -73,8 +81,10 @@
         </header>
         <main>
             <section id="studio">
+                <div class="slideInUp animated">
                 <h1>Want a real cool tattoo?</h1>
                 <p>Welcome to our Family Tattoo Studio</p>
+                </div>
                 <img src="img/blackstudo.jpg" alt="black studio" class="responsive">
                 <p>Family Tattoo Studio founded in 1996 in Kyiv. From first steps we decide to show tattoo as art. 
             We believe that everybody has the right to express themselves through tattoos and we help them with beauty and art.
@@ -96,39 +106,44 @@
             <section id="services">
                 <h2>Our services</h2>
                 <figure class="sign">
-                    <div class="pgrid row">
-                        <article class="card">
-                            <img src="img/tattoo.jpg" class="card-img-top" alt="Tattoo">
+                    <div class="pgrid">
+                        
+                            <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
                             <div class="card-body">
+                                <img src="img/tattoo.jpg" class="card-img-top" alt="Tattoo">
                                 <h5 class="card-title">Tattoo</h5>
                                 <p>The process of tattooing is the introduction under the skin of various dyes that are absorbed by the cells by macrophages.</p>
-                                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#tattooinfo">Info</a>
+                                <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#tattooinfo">Info</a>
                             </div>
-                        </article>
-                        <article class="card">
-                            <img src="img/bodypiercing.jpg" class="card-img-top" alt="Bodypiercing">
+                            </div>
+                        
+                        
+                           <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
                             <div class="card-body">
+                                 <img src="img/bodypiercing.jpg" class="card-img-top" alt="Bodypiercing">
                                 <h5 class="card-title">Bodypiercing</h5>
-                                <p>Piercing (Eng. Piercing - "puncture") - one of the forms of body modifications, the creation of a puncture, which are jewelry. </p>
-                                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#bodypiercinginfo">Info</a>
+                                <p>Piercing - one of the forms of body modifications, the creation of a puncture, which are jewelry.</p>
+                                <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#bodypiercinginfo">Info</a>
                             </div>
-                        </article>
-                        <article class="card">
-                            <img src="img/laserremoval.jpg" class="card-img-top" alt="Laser removal">
+                        </div>
+                        
+                            <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
                             <div class="card-body">
+                                <img src="img/laserremoval.jpg" class="card-img-top" alt="Laser removal">
                                 <h5 class="card-text">Laser removalg</h5>
-                                <p>Various methods of tattoo removal have been known since ancient times, and modern medicine is constantly being improved in this direction.</p>
-                                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#laserremovalinfo">Info</a>
+                                <p>There is a various methods of tattoo removal have been known, but the best is laser.</p>
+                                <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#laserremovalinfo">Info</a>
                             </div>
-                        </article>
-                        <article class="card">
-                            <img src="img/permanentmakeup.jpg" class="card-img-top" alt="Permanent Make Up">
+                        </div>
+                       <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+                            
                             <div class="card-body">
+                                <img src="img/permanentmakeup.jpg" class="card-img-top" alt="Permanent Make Up">
                                 <h5 class="card-text">Permanent Make Up</h5>
-                                <p>A modern permanent tattoo does wonders with the face of a woman, turning problem features into beautiful features that emphasize the external attractive charm of girls.</p>
-                                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#permanentmakeupinfo">Info</a>
+                                <p>A modern permanent tattoo does wonders with the face of a woman, turning problem features into beautiful features.</p>
+                                <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#permanentmakeupinfo">Info</a>
                             </div>
-                        </article>
+                        </div>
                     </div>
                 </figure>
             </section>
@@ -159,93 +174,141 @@
                 <h2>Our portfolio</h2>
                 <figure class="sign">
                     <div class="pgrid">
+                        
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo1.jpg" class="card-img-top" alt="Made by Dasha Soldatenko">
                             <h5>Made by Dasha Soldatenko</h5>
+                            </div>
                         </article>
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo2.jpg" class="card-img-top" alt="Made by Denis Ivanchuk">
                             <h5>Made by Denis Ivanchuk</h5>
+                            </div>
                         </article>
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo3.jpg" class="card-img-top" alt="Made by Denis Semko">
                             <h5>Made by Denis Semko</h5>
+                            </div>
                         </article>
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo4.jpg" class="card-img-top" alt="Made by Valeria Gumeniuk">
                             <h5>Made by Valeria Gumeniuk</h5>
+                            </div>
                         </article>
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo5.jpg" class="card-img-top" alt="Made by Dasha Soldatenko">
                             <h5>Made by Dasha Soldatenko</h5>
+                            </div>
                         </article>
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo6.jpg" class="card-img-top" alt="Made by Denis Ivanchuk">
                             <h5>Made by Denis Ivanchuk</h5>
+                            </div>
                         </article>
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo7.jpg" class="card-img-top" alt="Made by Denis Semko">
                             <h5>Made by Denis Semko</h5>
+                            </div>
                         </article>
                         <article class="card">
+                            <div class="profile">
                             <img src="img/tattoo8.jpg" class="card-img-top" alt="Made by Valeria Gumeniuk">
                             <h5>Made by Valeria Gumeniuk</h5>
+                            </div>
                         </article>
                     </div>
                 </figure>
             </section>
             <section id="prices">
-                <h2>Prices on Tattoo</h2>
-                <p>Tattoo - From 800 UAH</p>
-                <p>Laser tattoo removal - From 400 UAH</p>
-                <p>Tattoo (hour of work) - 1200 UAH</p>
-                <h2>Prices on permanent make-up</h2>
-                <p>Permanent make-up - From 2000 UAH</p>
-                <h2>Prices on Body Piercing</h2>
-                <p>Piercing (earlobe, cartilage) 1 puncture without jewelry - From 200 UAH</p>
-                <p>Piercing (tragus, nose, eyebrow, tongue, navel) 1 puncture without jewelry - From 300 UAH</p>
-                <p>Extreme piercing - From 500 UAH</p>
+                <h2>Prices</h2>
+<table class="table table-hover">
+  <tbody>
+    <tr>
+                <th scope="col">Tattoo - From 800 UAH</th>
+       </tr>
+              <tr>
+                <th scope="col">Laser tattoo removal - From 400 UAH</th>
+</tr>
+<tr>
+                <th scope="col">Tattoo (hour of work) - 1200 UAH</th>
+                       </tr>
+              <tr>
+                <th scope="col">Permanent make-up - From 2000 UAH</th>
+                       </tr>
+              <tr>
+                <th scope="col">Piercing (earlobe, cartilage) 1 puncture without jewelry - From 200 UAH</th>
+                       </tr>
+              <tr>
+               <th scope="col">Piercing (tragus, nose, eyebrow, tongue, navel) 1 puncture without jewelry - From 300 UAH</th>
+                      </tr>
+              <tr>
+                <th scope="col">Extreme piercing - From 500 UAH</th>
+                </tr>
+                  </tbody>
+</table>
             </section>
-        </main>
-        <footer>
+
             <section id="contact">
                 <h2>Contact</h2>
-                <p>Family Tattoo Studio</p>
+
+                
+			<div>
+				<p>Family Tattoo Studio</p>
                 <p>14, Lavrska street.</p>
                 <p>01015, Kyiv</p>
                 <p>+380-97-143-57-94</p>
-                <p>
-                    e-mail:<a href="mailto:lxwtsn@gmail.com">lxwtsn@gmail.com</a>
-                </p>
-                <a href="https://fb.com/tattoo">
-                    <img src="img/fb.png" alt="https://fb.com/tattoo" width="60">
-                </a>
-                <a href="https://chats.viber.com/AmandaImani/en">
-                    <img src="img/viber.png" alt="https://chats.viber.com/AmandaImani/en" width="60">
-                </a>
-                <h2>Have any questions? Write down and you'll get answer soon</h2>
+                <p>e-mail:<a href="mailto:lxwtsn@gmail.com">lxwtsn@gmail.com</a></p>
+				
+					<p>See more on:</p>
+					<div class="links">
+					<a href="https://fb.com/tattoo"><i class="fab fa-facebook"></i></a>
+						<a href="https://chats.viber.com/AmandaImani/en"><i class="fab fa-viber"></i></a>
+					
+					</div>
+			
+			</div>
+			<div class="links">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d898.3560797922711!2d30.519176083271887!3d50.442316892325245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1550182822715" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+
+                
+                
+                
+                
+
+                <h2>Have any questions? </h2>
+                <h4>Write down and you'll get answer soon</h4>
+                 <div class="form-group">
                 <form method="POST" action="https://formspree.io/lxwtsn@gmail.com">
                     <label for="name">Your Name:</label>
-                    <br>
-                    <input type="text" id="name" placeholder="Name" required name="user-name">
-                    <br>
-                    <label>
-                        Your e-mail:<br>
-                        <input type="text" placeholder="e-mail" required name="e-mail">
-                        <br>
-                    </label>
-                    <label>
-                        Your question:<br>
-                        <input type="text" placeholder="Your question" required name="question">
-                        <br>
-                    </label>
-                    <br>
-                    <input type="submit">
+                    <input type="text" class="form-control" id="name" placeholder="Name" required name="user-name">
+                    
+                    <label>Your e-mail:</label>
+                        <input type="text" class="form-control" id="e-mail" placeholder="e-mail" required name="e-mail">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    
+                    <label>Your question:</label>
+                        <input type="text" class="form-control" id="question" placeholder="Your question" required name="question">
+                   <div class="buttonalign">
+                   <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                   </div>
                 </form>
+                </div>
             </section>
+                    </main>
+        <footer class="jumbotron">
+ 
+  <p>©Oleg Melnychenko 2019</p>
         </footer>
         <!--modal for tattoo-->
-        <div class="modal fade" id="tattooinfo" tabindex="-1" role="dialog" aria-labelledby="tattooinfotitle" aria-hidden="true">
+        <div class="modal fade" id="tattooinfo" tabindex="-1" role="dialog" aria-label="tattooinfotitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -266,7 +329,7 @@ The tattoo artists of our studio will help you to decide on a sketch or concept 
             </div>
         </div>
         <!--modal for bodypiercing-->
-        <div class="modal fade" id="bodypiercinginfo" tabindex="-1" role="dialog" aria-labelledby="bodypiercetitle" aria-hidden="true">
+        <div class="modal fade" id="bodypiercinginfo" tabindex="-1" role="dialog" aria-label="bodypiercetitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -287,7 +350,7 @@ Nowadays, the progress and constant change of fashion is very popular piercing -
             </div>
         </div>
         <!--modal for laserremoval-->
-        <div class="modal fade" id="laserremovalinfo" tabindex="-1" role="dialog" aria-labelledby="laserremovaltitle" aria-hidden="true">
+        <div class="modal fade" id="laserremovalinfo" tabindex="-1" role="dialog" aria-label="laserremovaltitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -306,7 +369,7 @@ Nowadays, the progress and constant change of fashion is very popular piercing -
             </div>
         </div>
         <!--modal for permanentmakeup-->
-        <div class="modal fade" id="permanentmakeupinfo" tabindex="-1" role="dialog" aria-labelledby="permanentmakeuptitle" aria-hidden="true">
+        <div class="modal fade" id="permanentmakeupinfo" tabindex="-1" role="dialog" aria-label="permanentmakeuptitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -324,9 +387,16 @@ Nowadays, the progress and constant change of fashion is very popular piercing -
                 </div>
             </div>
         </div>
+        
+<a id="back2Top" title="Back to top" href="#">&#10148;</a>
+</div>
+        
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
         <script src="js/smoothscrol.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/wow.min.js"></script>
+
     </body>
 </html>
